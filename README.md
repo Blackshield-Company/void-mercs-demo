@@ -2,10 +2,11 @@
 
 **Guts, steel, and void magic.** A top-down mercenary action-RPG in a medieval
 apocalypse. The void broke through, and the land reshapes itself around the
-wound. You're a lone blade with a ledger and a company to raise.
+wound. You're **Vincent Void**: a mustached sellsword in Void Merc leathers, with
+a ledger and a company to raise.
 
-This free demo is **the Ashen Fields at company rank 1**: forge your captain,
-take bounties off the notice boards, loot the void-touched, hire your first
+This free demo is **the Ashen Fields at company rank 1**: start a new run and
+you're straight into the world as Vincent. Take bounties off the notice boards, loot the void-touched, hire your first
 two blades, drink in the tavern, and hold the roads through the night. When
 you're ready, take any pass out of the Fields... and **the Wound calls**.
 
@@ -22,8 +23,8 @@ itself is closed-source, and this repository hosts release builds only.
 
 | | |
 |---|---|
-| ![Title](docs/screenshots/01-title.png) | ![Captain creator](docs/screenshots/02-captain-creator.png) |
-| ![Ashen Fields, recruits](docs/screenshots/03-ashen-fields-recruits.png) | ![Night, first kill](docs/screenshots/04-night-first-kill.png) |
+| ![Title](docs/screenshots/01-title.png) | ![Vincent Void](docs/screenshots/02-vincent-void.png) |
+| ![Ashen Fields, recruits](docs/screenshots/03-ashen-fields-recruits.png) | ![Combat with husks](docs/screenshots/04-combat-husks.png) |
 | ![The Wound calls](docs/screenshots/05-demo-ending-hook.png) | ![Windows build](docs/screenshots/06-windows-build-under-wine.png) |
 
 ## What's in the demo
@@ -32,7 +33,8 @@ itself is closed-source, and this repository hosts release builds only.
 - The Fields bestiary: **Husks, Raiders, Void Hounds**, night-time elites, blood moons
 - Notice-board **contracts**, merchants, healers, chests, the **tavern** and its bard
 - **Company rank 1**: hire up to two mercenaries (Sellsword, Archer, Battlemedic, Voidcaller)
-- Captain creator, paper-doll equipment, XP and skills, camp
+- **Vincent Void**, the company's captain: slicked-back brown undercut, gentleman's mustache,
+  blue eyes, leather armor under the Void Mercs kit. Paper-doll equipment, XP and skills, camp
 - Taking any pass out of the Fields ends the demo
 
 ## Download & run
