@@ -39,7 +39,7 @@ itself is closed-source, and this repository hosts release builds only.
 
 ## Download & run
 
-Get the zips from **[Releases](https://github.com/synthalorian/void-mercs-demo/releases)** (`v0.1.0-demo`). Check them against `SHA256SUMS.txt`.
+Get the zips from **[Releases](https://github.com/synthalorian/void-mercs-demo/releases)** (`v0.1.1-demo`). Check them against `SHA256SUMS.txt`.
 
 **Windows x64**: unzip, then run `void-mercs-demo.exe`. Keep the DLLs and the `assets` folder next to it.
 SmartScreen may warn that the app is unsigned. Choose *More info → Run anyway*.
@@ -54,8 +54,8 @@ sudo dnf install SDL2 SDL2_ttf SDL2_mixer SDL2_image
 # Arch
 sudo pacman -S sdl2 sdl2_ttf sdl2_mixer sdl2_image
 
-unzip void-mercs-demo-v0.1.0-demo-linux-x86_64.zip
-cd void-mercs-demo-v0.1.0-demo-linux-x86_64 && ./void-mercs-demo.sh
+unzip void-mercs-demo-v0.1.1-demo-linux-x86_64.zip
+cd void-mercs-demo-v0.1.1-demo-linux-x86_64 && ./void-mercs-demo.sh
 ```
 
 Saves live in `~/.local/share/voidmercs-demo/` (Linux) or `%APPDATA%\voidmercs-demo\` (Windows).
@@ -83,10 +83,22 @@ Saves live in `~/.local/share/voidmercs-demo/` (Linux) or `%APPDATA%\voidmercs-d
 
 Gamepads are supported.
 
-## Known issues (v0.1.0-demo)
+## Changelog
+
+### v0.1.1-demo
+
+- Fixed key presses being dropped or firing twice after Start (e.g. Esc opening and instantly closing the camp menu).
+- Photo mode (F10) now exits whenever a menu opens, Esc leaves it, and an on-screen hint shows how to exit.
+- Fixed the zone banner re-triggering and spamming the log every frame inside the tutorial yard and other instances.
+
+### v0.1.0-demo
+
+- First public demo build.
+
+## Known issues (v0.1.1-demo)
 
 - The Windows build was tested under Wine, not yet on native Windows. Please report problems.
-- The builds are unsigned. Windows SmartScreen may warn on first launch.
+- The builds are unsigned. If Windows SmartScreen warns, click More info > Run anyway.
 - The Linux build uses the system SDL2 libraries, which you must install (see above).
 - The title-screen ledger also lists full-game stats (bosses, rift waves, victories). In the demo they stay at 0.
 - A first run writes a `console.log` to the save folder. Attach it when reporting a crash.
