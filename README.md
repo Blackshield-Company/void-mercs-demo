@@ -1,3 +1,5 @@
+![void-mercs-demo](.github/preview.png)
+
 # VOID MERCS — Free Demo
 
 **Guts, steel, and void magic.** A top-down mercenary action-RPG in a medieval
