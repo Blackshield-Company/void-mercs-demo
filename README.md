@@ -16,8 +16,8 @@ you're ready, take any pass out of the Fields... and **the Wound calls**.
 > arena, a company that grows into a Legion, and the Hollow Knight waiting at
 > the Wound's heart. Follow along at **https://synthalorian.pages.dev**.
 
-### ⚙️ Built on [VoidEngine](https://github.com/synthalorian/voidengine)
-Void Mercs runs on **[VoidEngine](https://github.com/synthalorian/voidengine)**,
+### ⚙️ Built on [VoidEngine](https://github.com/Blackshield-Company/voidengine)
+Void Mercs runs on **[VoidEngine](https://github.com/Blackshield-Company/voidengine)**,
 the open-source Odin + SDL2 engine (Apache-2.0). The engine is open; the game
 itself is closed-source, and this repository hosts release builds only.
 
@@ -41,7 +41,7 @@ itself is closed-source, and this repository hosts release builds only.
 
 ## Download & run
 
-Get the zips from **[Releases](https://github.com/synthalorian/void-mercs-demo/releases)** (`v0.1.1-demo`). Check them against `SHA256SUMS.txt`.
+Get the zips from **[Releases](https://github.com/Blackshield-Company/void-mercs-demo/releases)** (`v0.1.1-demo`). Check them against `SHA256SUMS.txt`.
 
 **Windows x64**: unzip, then run `void-mercs-demo.exe`. Keep the DLLs and the `assets` folder next to it.
 SmartScreen may warn that the app is unsigned. Choose *More info → Run anyway*.
@@ -105,7 +105,7 @@ Gamepads are supported.
 - The title-screen ledger also lists full-game stats (bosses, rift waves, victories). In the demo they stay at 0.
 - A first run writes a `console.log` to the save folder. Attach it when reporting a crash.
 
-Report issues on this repo's [Issues](https://github.com/synthalorian/void-mercs-demo/issues) tab.
+Report issues on this repo's [Issues](https://github.com/Blackshield-Company/void-mercs-demo/issues) tab.
 
 ## License
 
@@ -115,4 +115,4 @@ welcome. Third-party components are listed in [ASSETS.md](ASSETS.md).
 
 ---
 
-[VoidEngine (open source)](https://github.com/synthalorian/voidengine) · [synthalorian.pages.dev](https://synthalorian.pages.dev)
+[VoidEngine (open source)](https://github.com/Blackshield-Company/voidengine) · [synthalorian.pages.dev](https://synthalorian.pages.dev)
